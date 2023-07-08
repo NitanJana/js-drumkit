@@ -28,5 +28,10 @@ html,body {
   gap: .5rem;
   width: 5rem;
   height: 5rem;
+  transition: all 0.07s ease;
 }
 
+.playing {
+  border-color: yellow;
+  transform: scale(1.1);
+}
